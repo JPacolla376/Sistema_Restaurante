@@ -15,8 +15,10 @@ $result = $conn->query($sql);
 <div class="container">
     <h2>Lista de Pratos</h2>
     
-    <a href="create.php" class="btn btn-success mb-3">Atualizar Menu</a>
-    <a href="createpedido.php" class="btn btn-info mb-3"> Fazer pedido <a>
+    <a href="createprato.php" class="btn btn-success mb-3">Atualizar Menu</a>
+    <a href="createmesa.php" class="btn btn-success mb-3"> Abrir mesa <a>
+    <a href="createpedido.php" class="btn btn-success mb-3"> Fazer pedido <a>
+    <a href="fecharmesa.php" class="btn btn-danger mb-3"> Fechar mesa <a>
     
     <table class="table table-bordered">
         <thead>
